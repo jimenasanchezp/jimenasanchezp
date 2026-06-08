@@ -28,7 +28,7 @@
     }
     @keyframes pulse-shadow {
       0%, 100% { transform: scaleX(1); opacity: 0.15; }
-      50% { transform: scaleX(1.08); opacity: 0.2; }
+      50% { transform: scaleX(1.08); opacity: 0.25; }
     }
 
     .cat-group {
@@ -74,12 +74,12 @@
   </style>
 
   <!-- Shadow below cat -->
-  <ellipse class="shadow-ellipse" cx="220" cy="320" rx="90" ry="12" fill="#db2777" />
+  <ellipse class="shadow-ellipse" cx="220" cy="320" rx="90" ry="12" fill="#d4c5b9" opacity="0.2" />
 
   <!-- The Cat Group (Breathing/Floating) -->
   <g class="cat-group">
     <!-- Tail (Wagging) -->
-    <g class="cat-tail" fill="#f472b6">
+    <g class="cat-tail" fill="#f3eee3">
       <rect x="120" y="180" width="16" height="16" rx="2" />
       <rect x="104" y="196" width="16" height="16" rx="2" />
       <rect x="120" y="212" width="16" height="32" rx="2" />
@@ -87,7 +87,7 @@
     </g>
 
     <!-- Cat Body & Head -->
-    <g fill="#f472b6">
+    <g fill="#f3eee3">
       <!-- Ears -->
       <rect x="160" y="100" width="16" height="16" rx="2" />
       <rect x="176" y="116" width="16" height="16" rx="2" />
@@ -110,8 +110,8 @@
       <rect x="240" y="276" width="24" height="16" rx="3" />
     </g>
 
-    <!-- Inner Ears (Darker Pink) -->
-    <g fill="#db2777">
+    <!-- Inner Ears (Obsidian Black) -->
+    <g fill="#121212">
       <rect x="164" y="120" width="8" height="8" rx="1" />
       <rect x="268" y="120" width="8" height="8" rx="1" />
     </g>
@@ -120,38 +120,38 @@
     <g class="cat-eyes">
       <!-- Left Eye -->
       <rect x="192" y="156" width="12" height="20" rx="2" fill="#ffffff" />
-      <rect x="196" y="160" width="8" height="12" rx="1" fill="#ec4899" />
+      <rect x="196" y="160" width="8" height="12" rx="1" fill="#121212" />
       <!-- Right Eye -->
       <rect x="236" y="156" width="12" height="20" rx="2" fill="#ffffff" />
-      <rect x="240" y="160" width="8" height="12" rx="1" fill="#ec4899" />
+      <rect x="240" y="160" width="8" height="12" rx="1" fill="#121212" />
     </g>
 
     <!-- Nose / Mouth -->
-    <rect x="216" y="176" width="8" height="6" rx="1.5" fill="#db2777" />
+    <rect x="216" y="176" width="8" height="6" rx="1.5" fill="#121212" />
   </g>
 
-  <!-- Sparkles & Icons (Pink/Lavender Theme) -->
+  <!-- Sparkles & Icons (Beige/Gold Theme) -->
   <!-- Sparkle 1 (Left Middle) -->
-  <path class="sparkle-1" d="M 105,220 L 108,231 L 119,234 L 108,237 L 105,248 L 102,237 L 91,234 L 102,231 Z" fill="#ec4899" />
+  <path class="sparkle-1" d="M 105,220 L 108,231 L 119,234 L 108,237 L 105,248 L 102,237 L 91,234 L 102,231 Z" fill="#e6ca9c" />
   
   <!-- Sparkle 2 (Left Top) -->
-  <path class="sparkle-2" d="M 125,113 L 127,121 L 135,123 L 127,125 L 125,133 L 123,125 L 115,123 L 123,121 Z" fill="#fbcfe8" />
+  <path class="sparkle-2" d="M 125,113 L 127,121 L 135,123 L 127,125 L 125,133 L 123,125 L 115,123 L 123,121 Z" fill="#fdfaf2" />
 
   <!-- Plus 1 (Right Top) -->
   <g class="particle-plus-1">
-    <rect x="322" y="105" width="6" height="20" rx="2" fill="#ec4899" />
-    <rect x="315" y="112" width="20" height="6" rx="2" fill="#ec4899" />
+    <rect x="322" y="105" width="6" height="20" rx="2" fill="#e6ca9c" />
+    <rect x="315" y="112" width="20" height="6" rx="2" fill="#e6ca9c" />
   </g>
 
   <!-- Circle 1 (Right Middle-Top) -->
-  <circle class="particle-circle-1" cx="345" cy="155" r="8" stroke="#f472b6" stroke-width="4" fill="none" />
+  <circle class="particle-circle-1" cx="345" cy="155" r="8" stroke="#d4c5b9" stroke-width="4" fill="none" />
 
   <!-- Cross 1 (Right Bottom) -->
   <g class="particle-cross-1" style="transform: rotate(45deg); transform-origin: 335px 275px;">
-    <rect x="332" y="265" width="6" height="20" rx="2" fill="#fbcfe8" />
-    <rect x="325" y="272" width="20" height="6" rx="2" fill="#fbcfe8" />
+    <rect x="332" y="265" width="6" height="20" rx="2" fill="#fdfaf2" />
+    <rect x="325" y="272" width="20" height="6" rx="2" fill="#fdfaf2" />
   </g>
 
   <!-- Circle 2 (Right Bottom-Most) -->
-  <circle class="particle-circle-2" cx="295" cy="305" r="10" stroke="#db2777" stroke-width="4" fill="none" />
+  <circle class="particle-circle-2" cx="295" cy="305" r="10" stroke="#e6ca9c" stroke-width="4" fill="none" />
 </svg>
