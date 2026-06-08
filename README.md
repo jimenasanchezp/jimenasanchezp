@@ -1,9 +1,6 @@
 <!-- CABECERA Y NAVEGACIÓN -->
 <table border="0" width="100%" cellpadding="0" cellspacing="0">
   <tr>
-    <td align="left" valign="middle">
-      <h1 style="color: #ec4899; font-family: 'Segoe UI', sans-serif; font-size: 28px; margin: 0;">pinkdev.</h1>
-    </td>
     <td align="right" valign="middle">
       <p style="font-family: 'Segoe UI', sans-serif; font-size: 14px; margin: 0;">
         <a href="#sobre-mi" style="color: #ec4899; text-decoration: none; font-weight: bold;">Sobre Mí</a> &nbsp;&nbsp;&nbsp;&nbsp;
