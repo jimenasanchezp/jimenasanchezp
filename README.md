@@ -1,4 +1,9 @@
-<!-- CABECERA Y NAVEGACIÓN -->
+<!-- CABECERA Y BANNER HERO -->
+<p align="center">
+  <img src="./banner-hero.svg" width="100%" alt="Jimena - Informatics Student" />
+</p>
+
+<!-- NAVEGACIÓN -->
 <table border="0" width="100%" cellpadding="0" cellspacing="0">
   <tr>
     <td align="right" valign="middle">
@@ -50,7 +55,7 @@
     </td>
     <td width="2%"></td>
     <td width="32%" align="center" valign="top">
-      <img src="./card-education.svg" width="100%" alt="Carrera de Informática" />
+      <img src="./card-education.svg" width="100%" alt="Educación" />
     </td>
     <td width="2%"></td>
     <td width="32%" align="center" valign="top">
@@ -70,7 +75,7 @@
   <tr>
     <td width="60" align="center" valign="top" style="padding-top: 5px;">
       <img src="./badge-2026.svg" width="48" alt="2026" /><br>
-      <img src="./line.svg" width="2" height="90" alt="|" />
+      <img src="./line.svg" width="4" height="90" alt="|" />
     </td>
     <td valign="top" style="padding-left: 20px; padding-bottom: 30px;">
       <h3 style="color: #f3eee3; font-family: 'Segoe UI', sans-serif; font-size: 18px; margin: 0 0 5px 0;">Estudiante de Informática / Desarrollador Autónomo</h3>
@@ -110,15 +115,15 @@
       </p>
       <p>
         <a href="mailto:jimenasanzp@gmail.com">
-          <img src="https://img.shields.io/badge/Email-jimenasanzp@gmail.com-e6ca9c?style=for-the-badge&logo=gmail&logoColor=121212" alt="Email" />
+          <img src="./button-email.svg" height="38" alt="Email" />
         </a>
-        &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;
         <a href="https://instagram.com/hyjimn">
-          <img src="https://img.shields.io/badge/Instagram-@hyjimn-e6ca9c?style=for-the-badge&logo=instagram&logoColor=121212" alt="Instagram" />
+          <img src="./button-instagram.svg" height="38" alt="Instagram" />
         </a>
-        &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;
         <a href="https://github.com/jimenasanchezp">
-          <img src="https://img.shields.io/badge/GitHub-jimenasanchezp-e6ca9c?style=for-the-badge&logo=github&logoColor=121212" alt="GitHub" />
+          <img src="./button-github.svg" height="38" alt="GitHub" />
         </a>
       </p>
     </td>

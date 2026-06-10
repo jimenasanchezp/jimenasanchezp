@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 38" width="140" height="38" fill="none">
+  <defs>
+    <clipPath id="btn-clip">
+      <rect x="1" y="1" width="138" height="36" rx="18" />
+    </clipPath>
+    <linearGradient id="shimmer-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#e6ca9c" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes shine {
+      0% { transform: translateX(-150px) skewX(-30deg); }
+      30%, 100% { transform: translateX(180px) skewX(-30deg); }
+    }
+    @keyframes pulse-border {
+      0%, 100% { stroke: #d4c5b9; }
+      50% { stroke: #e6ca9c; }
+    }
+    .btn-border {
+      animation: pulse-border 3s ease-in-out infinite 1s;
+    }
+    .shimmer-rect {
+      animation: shine 4s ease-in-out infinite 1s;
+    }
+  </style>
+
+  <!-- Button Container -->
+  <g clip-path="url(#btn-clip)">
+    <!-- Background -->
+    <rect x="1" y="1" width="138" height="36" rx="18" fill="#1c1917" />
+    
+    <!-- Shimmer Effect -->
+    <rect class="shimmer-rect" x="0" y="0" width="60" height="38" fill="url(#shimmer-grad)" />
+  </g>
+
+  <!-- Border -->
+  <rect class="btn-border" x="1" y="1" width="138" height="36" rx="18" stroke="#d4c5b9" stroke-width="1.2" />
+
+  <!-- Pixel Art Cat Face Icon -->
+  <g transform="translate(17, 5)">
+    <!-- Ears -->
+    <rect x="0" y="2" width="2" height="2" fill="#e6ca9c" />
+    <rect x="12" y="2" width="2" height="2" fill="#e6ca9c" />
+    <!-- Cheeks & Head -->
+    <rect x="1" y="4" width="12" height="8" rx="1" fill="#e6ca9c" />
+    <rect x="0" y="6" width="14" height="4" fill="#e6ca9c" />
+    <!-- Eyes -->
+    <rect x="3" y="6" width="1.5" height="2" fill="#1c1917" />
+    <rect x="9.5" y="6" width="1.5" height="2" fill="#1c1917" />
+    <!-- Nose -->
+    <rect x="6.5" y="8" width="1" height="1" fill="#1c1917" />
+  </g>
+
+  <!-- Text -->
+  <text x="76" y="23" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" fill="#f3eee3" text-anchor="middle">GitHub</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 38" width="140" height="38" fill="none">
+  <defs>
+    <clipPath id="btn-clip">
+      <rect x="1" y="1" width="138" height="36" rx="18" />
+    </clipPath>
+    <linearGradient id="shimmer-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#e6ca9c" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes shine {
+      0% { transform: translateX(-150px) skewX(-30deg); }
+      30%, 100% { transform: translateX(180px) skewX(-30deg); }
+    }
+    @keyframes pulse-border {
+      0%, 100% { stroke: #d4c5b9; }
+      50% { stroke: #e6ca9c; }
+    }
+    .btn-border {
+      animation: pulse-border 3s ease-in-out infinite;
+    }
+    .shimmer-rect {
+      animation: shine 4s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Button Container -->
+  <g clip-path="url(#btn-clip)">
+    <!-- Background -->
+    <rect x="1" y="1" width="138" height="36" rx="18" fill="#1c1917" />
+    
+    <!-- Shimmer Effect -->
+    <rect class="shimmer-rect" x="0" y="0" width="60" height="38" fill="url(#shimmer-grad)" />
+  </g>
+
+  <!-- Border -->
+  <rect class="btn-border" x="1" y="1" width="138" height="36" rx="18" stroke="#d4c5b9" stroke-width="1.2" />
+
+  <!-- Pixel Art Envelope Icon -->
+  <g transform="translate(16, 5)">
+    <!-- Envelope Body -->
+    <rect x="0" y="4" width="16" height="10" rx="1.5" stroke="#e6ca9c" stroke-width="1.2" fill="#1c1917" />
+    <!-- Flap lines -->
+    <path d="M 1,5 L 8,10 L 15,5" stroke="#e6ca9c" stroke-width="1.2" stroke-linecap="round" />
+  </g>
+
+  <!-- Text -->
+  <text x="76" y="23" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" fill="#f3eee3" text-anchor="middle">Email</text>
+</svg>

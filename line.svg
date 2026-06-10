@@ -1,14 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2 80" width="2" height="80" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 90" width="4" height="90" fill="none">
   <style>
     @keyframes flow {
-      0% { stroke-dashoffset: 20; }
+      0% { stroke-dashoffset: 30; }
       100% { stroke-dashoffset: 0; }
     }
     .flow-line {
-      stroke-dasharray: 10 10;
-      animation: flow 2.5s linear infinite;
+      animation: flow 2s linear infinite;
     }
   </style>
-  <line x1="1" y1="0" x2="1" y2="80" stroke="#1c1917" stroke-width="2" />
-  <line class="flow-line" x1="1" y1="0" x2="1" y2="80" stroke="#e6ca9c" stroke-width="2" />
+  <!-- Background line -->
+  <line x1="2" y1="0" x2="2" y2="90" stroke="#1c1917" stroke-width="4" opacity="0.8" />
+  <!-- Animating dotted signal line -->
+  <line class="flow-line" x1="2" y1="0" x2="2" y2="90" stroke="#e6ca9c" stroke-width="4" stroke-dasharray="10 15" />
 </svg>
