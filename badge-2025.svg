@@ -2,7 +2,7 @@
   <style>
     @keyframes pulse {
       0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.04); }
+      50% { transform: scale(1.05); }
     }
     .badge {
       transform-origin: 25px 25px;
@@ -10,35 +10,23 @@
     }
   </style>
   <g class="badge">
-    <!-- Floppy Body (Pastel Pink) -->
-    <path d="M 6,4 L 38,4 L 46,12 L 46,44 L 6,44 Z" fill="#ffb3c1" />
-    
-    <!-- 3D Bevel on floppy -->
-    <path d="M 6,4 L 38,4 L 46,12" stroke="#ffffff" stroke-width="1.5" stroke-linecap="square" />
-    <path d="M 6,4 L 6,44 M 7,43 L 45,43" stroke="#ffffff" stroke-width="1.5" stroke-linecap="square" />
-    <path d="M 46,12 L 46,44 L 6,44" stroke="#4a3e3c" stroke-width="1.5" stroke-linecap="square" />
-    <path d="M 45,13 L 45,43 L 7,43" stroke="#8a7673" stroke-width="1" stroke-linecap="square" />
+    <!-- Floppy Body (Transparent with White Outlines) -->
+    <path d="M 6,4 L 38,4 L 46,12 L 46,44 L 6,44 Z" stroke="#ffffff" stroke-width="1.8" fill="none" />
+    <path d="M 7,43 L 7,5 L 37,5" stroke="#ffffff" stroke-width="0.8" fill="none" />
+    <path d="M 45,13 L 45,43 L 7,43" stroke="#8a8a8c" stroke-width="1" fill="none" />
 
-    <!-- Sliding Shutter (Silver/White) -->
-    <rect x="14" y="6" width="14" height="10" fill="#f5e6e3" />
-    <line x1="14" y1="6" x2="28" y2="6" stroke="#ffffff" stroke-width="1" />
-    <line x1="14" y1="6" x2="14" y2="16" stroke="#ffffff" stroke-width="1" />
-    <line x1="14" y1="16" x2="28" y2="16" stroke="#8a7673" stroke-width="1" />
-    <line x1="28" y1="6" x2="28" y2="16" stroke="#8a7673" stroke-width="1" />
-    
-    <!-- Shutter cutout window -->
-    <rect x="18" y="8" width="6" height="5" fill="#4a3e3c" />
+    <!-- Sliding Shutter (White with Fuchsia Cutout) -->
+    <rect x="14" y="6" width="14" height="10" stroke="#ffffff" stroke-width="1.2" fill="none" />
+    <rect x="18" y="8" width="6" height="5" fill="#ff007f" />
 
-    <!-- Label (White) -->
-    <rect x="10" y="20" width="30" height="20" fill="#ffffff" />
-    <rect x="10" y="20" width="30" height="20" stroke="#8a7673" stroke-width="1" fill="none" />
-    <!-- Mini color strip on label (Fucsia chicle) -->
-    <rect x="11" y="21" width="28" height="3" fill="#ff758f" />
+    <!-- Label (White Fill for readability) -->
+    <rect x="10" y="20" width="30" height="20" fill="#ffffff" stroke="#ff007f" stroke-width="1" />
+    <rect x="11" y="21" width="28" height="2" fill="#ff007f" />
 
     <!-- Year Text -->
-    <text x="25" y="34" font-family="'Courier New', Courier, monospace" font-size="9" font-weight="bold" fill="#4a3e3c" text-anchor="middle">2025</text>
+    <text x="25" y="34" font-family="'Courier New', Courier, monospace" font-size="9" font-weight="bold" fill="#ff007f" text-anchor="middle">2025</text>
 
-    <!-- Write protect hole (bottom right) -->
-    <rect x="38" y="38" width="4" height="4" fill="#4a3e3c" />
+    <!-- Write protect hole -->
+    <rect x="38" y="38" width="4" height="4" fill="#ff007f" />
   </g>
 </svg>

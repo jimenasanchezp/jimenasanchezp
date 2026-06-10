@@ -51,53 +51,34 @@
     }
   </style>
 
-  <!-- 1. RETRO WINAMP CHASSIS (Windows 95 Bevel) -->
-  <rect x="10" y="10" width="430" height="380" fill="#f5e6e3" rx="6" />
-  
-  <!-- Outer Bevel Borders -->
-  <line x1="10" y1="10" x2="440" y2="10" stroke="#ffffff" stroke-width="2.5" />
-  <line x1="10" y1="10" x2="10" y2="390" stroke="#ffffff" stroke-width="2.5" />
-  <line x1="10" y1="389" x2="440" y2="389" stroke="#4a3e3c" stroke-width="2.5" />
-  <line x1="439" y1="10" x2="439" y2="390" stroke="#4a3e3c" stroke-width="2.5" />
-  <line x1="11" y1="388" x2="439" y2="388" stroke="#8a7673" stroke-width="1.5" />
-  <line x1="438" y1="11" x2="438" y2="389" stroke="#8a7673" stroke-width="1.5" />
+  <!-- 1. RETRO WINAMP CHASSIS (Transparent base with White bevel) -->
+  <rect x="10" y="10" width="430" height="380" rx="6" stroke="#ffffff" stroke-width="2.5" fill="none" />
+  <rect x="11" y="11" width="428" height="378" rx="5" stroke="#8a8a8c" stroke-width="1" fill="none" />
 
-  <!-- 2. PLAYER TITLE BAR -->
-  <linearGradient id="title-grad" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#ff758f" />
-    <stop offset="100%" stop-color="#ffb3c1" />
-  </linearGradient>
-  <rect x="15" y="15" width="420" height="20" fill="url(#title-grad)" />
-  <text x="25" y="29" font-family="'MS Sans Serif', Arial, sans-serif" font-size="10" font-weight="bold" fill="#ffffff">Winamp 2.82 - Gato_Player.mp3</text>
+  <!-- 2. PLAYER TITLE BAR (Solid White) -->
+  <rect x="15" y="15" width="420" height="20" fill="#ffffff" />
+  <text x="25" y="29" font-family="'MS Sans Serif', Arial, sans-serif" font-size="10" font-weight="bold" fill="#ff007f">Winamp 2.82 - Gato_Player.mp3</text>
   
   <!-- Close Button -->
   <g transform="translate(420, 19)">
-    <rect x="0" y="0" width="10" height="10" fill="#f5e6e3" />
-    <line x1="0" y1="9" x2="10" y2="9" stroke="#4a3e3c" stroke-width="1" />
-    <line x1="9" y1="0" x2="9" y2="10" stroke="#4a3e3c" stroke-width="1" />
-    <line x1="0" y1="0" x2="10" y2="0" stroke="#ffffff" stroke-width="1" />
-    <line x1="0" y1="0" x2="0" y2="10" stroke="#ffffff" stroke-width="1" />
-    <path d="M 2.5,2.5 L 7.5,7.5 M 7.5,2.5 L 2.5,7.5" stroke="#000000" stroke-width="1" />
+    <rect x="0" y="0" width="10" height="10" fill="#eeeeee" stroke="#8a8a8c" stroke-width="0.8" />
+    <path d="M 2.5,2.5 L 7.5,7.5 M 7.5,2.5 L 2.5,7.5" stroke="#ff007f" stroke-width="1" />
   </g>
 
-  <!-- 3. MEDIA VISUALIZATION SCREEN (Client Area) -->
+  <!-- 3. MEDIA VISUALIZATION SCREEN (Client Area - Transparent) -->
   <!-- Screen Box -->
-  <rect x="20" y="42" width="410" height="260" fill="#ffccd5" />
-  <!-- Inset Bevel Shadow -->
-  <line x1="20" y1="42" x2="430" y2="42" stroke="#8a7673" stroke-width="1.5" />
-  <line x1="20" y1="42" x2="20" y2="302" stroke="#8a7673" stroke-width="1.5" />
-  <line x1="20" y1="301" x2="430" y2="301" stroke="#ffffff" stroke-width="1" />
-  <line x1="429" y1="42" x2="429" y2="302" stroke="#ffffff" stroke-width="1" />
+  <rect x="20" y="42" width="410" height="260" stroke="#ffffff" stroke-width="1.5" fill="none" />
+  <rect x="21" y="43" width="408" height="258" stroke="#8a8a8c" stroke-width="0.8" fill="none" />
 
   <!-- Time Counter (Top Right of Screen) -->
-  <text x="415" y="65" font-family="'Courier New', Courier, monospace" font-size="20" font-weight="bold" fill="#ff758f" text-anchor="end">02<tspan class="time-colon">:</tspan>35</text>
+  <text x="415" y="65" font-family="'Courier New', Courier, monospace" font-size="20" font-weight="bold" fill="#ff007f" text-anchor="end">02<tspan class="time-colon">:</tspan>35</text>
   <!-- Stereo Indicator -->
-  <text x="32" y="62" font-family="'MS Sans Serif', Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffb3c1">STEREO</text>
+  <text x="32" y="62" font-family="'MS Sans Serif', Arial, sans-serif" font-size="8" font-weight="bold" fill="#ffffff">STEREO</text>
 
   <!-- THE CAT MASCOT (Scaled inside visualization screen) -->
   <g transform="translate(0, -10) scale(0.95)">
     <!-- Shadow below cat -->
-    <ellipse class="shadow-ellipse" cx="220" cy="320" rx="90" ry="12" fill="#ffb3c1" opacity="0.3" />
+    <ellipse class="shadow-ellipse" cx="220" cy="320" rx="90" ry="12" fill="#ff007f" opacity="0.15" />
 
     <!-- The Cat Group (Breathing/Floating) -->
     <g class="cat-group">
@@ -133,117 +114,86 @@
         <rect x="240" y="276" width="24" height="16" rx="3" />
       </g>
 
-      <!-- Inner Ears (Pastel Pink) -->
-      <g fill="#ff758f">
+      <!-- Inner Ears (Pastel Fuchsia) -->
+      <g fill="#ff007f">
         <rect x="164" y="120" width="8" height="8" rx="1" />
         <rect x="268" y="120" width="8" height="8" rx="1" />
       </g>
 
       <!-- Cute Blushing Cheeks -->
-      <rect x="180" y="174" width="10" height="4" fill="#ff758f" opacity="0.8" rx="1" />
-      <rect x="250" y="174" width="10" height="4" fill="#ff758f" opacity="0.8" rx="1" />
+      <rect x="180" y="174" width="10" height="4" fill="#ff007f" opacity="0.8" rx="1" />
+      <rect x="250" y="174" width="10" height="4" fill="#ff007f" opacity="0.8" rx="1" />
 
       <!-- Eyes (Blinking Group) -->
       <g class="cat-eyes">
         <!-- Left Eye -->
         <rect x="192" y="156" width="12" height="20" rx="2" fill="#ffffff" />
-        <rect x="196" y="160" width="8" height="12" rx="1" fill="#4a3e3c" />
+        <rect x="196" y="160" width="8" height="12" rx="1" fill="#ff007f" />
         <!-- Right Eye -->
         <rect x="236" y="156" width="12" height="20" rx="2" fill="#ffffff" />
-        <rect x="240" y="160" width="8" height="12" rx="1" fill="#4a3e3c" />
+        <rect x="240" y="160" width="8" height="12" rx="1" fill="#ff007f" />
       </g>
 
       <!-- Nose / Mouth -->
-      <rect x="216" y="176" width="8" height="6" rx="1.5" fill="#4a3e3c" />
+      <rect x="216" y="176" width="8" height="6" rx="1.5" fill="#ff007f" />
     </g>
 
     <!-- Sparkles -->
     <!-- Sparkle 1 (Fucsia) -->
-    <path class="sparkle" d="M 105,220 L 108,231 L 119,234 L 108,237 L 105,248 L 102,237 L 91,234 L 102,231 Z" fill="#ff758f" />
-    <!-- Sparkle 2 (Pastel Yellow) -->
-    <path class="sparkle" d="M 125,113 L 127,121 L 135,123 L 127,125 L 125,133 L 123,125 L 115,123 L 123,121 Z" fill="#fbf7c7" style="animation-delay: 2s;" />
+    <path class="sparkle" d="M 105,220 L 108,231 L 119,234 L 108,237 L 105,248 L 102,237 L 91,234 L 102,231 Z" fill="#ff007f" />
+    <!-- Sparkle 2 (White) -->
+    <path class="sparkle" d="M 125,113 L 127,121 L 135,123 L 127,125 L 125,133 L 123,125 L 115,123 L 123,121 Z" fill="#ffffff" style="animation-delay: 2s;" />
   </g>
 
-  <!-- 4. CONTROLS AREA (Below Screen) -->
+  <!-- 4. CONTROLS AREA (Below Screen - Transparent fill with White Bevel) -->
   <!-- Prev Button -->
   <g transform="translate(25, 315)">
-    <rect x="0" y="0" width="30" height="22" fill="#f5e6e3" />
-    <line x1="0" y1="0" x2="30" y2="0" stroke="#ffffff" stroke-width="1.5" />
-    <line x1="0" y1="0" x2="0" y2="22" stroke="#ffffff" stroke-width="1.5" />
-    <line x1="0" y1="21" x2="30" y2="21" stroke="#4a3e3c" stroke-width="1.5" />
-    <line x1="29" y1="0" x2="29" y2="22" stroke="#4a3e3c" stroke-width="1.5" />
-    <path d="M 8,11 L 16,6 L 16,16 Z M 17,11 L 22,7 L 22,15 Z" fill="#ff758f" />
-    <line x1="6" y1="6" x2="6" y2="16" stroke="#ff758f" stroke-width="1.5" />
+    <rect x="0" y="0" width="30" height="22" stroke="#ffffff" stroke-width="1.5" fill="none" />
+    <path d="M 8,11 L 16,6 L 16,16 Z M 17,11 L 22,7 L 22,15 Z" fill="#ff007f" />
+    <line x1="6" y1="6" x2="6" y2="16" stroke="#ff007f" stroke-width="1.5" />
   </g>
 
   <!-- Play Button -->
   <g transform="translate(60, 315)">
-    <rect x="0" y="0" width="30" height="22" fill="#f5e6e3" />
-    <line x1="0" y1="0" x2="30" y2="0" stroke="#ffffff" stroke-width="1.5" />
-    <line x1="0" y1="0" x2="0" y2="22" stroke="#ffffff" stroke-width="1.5" />
-    <line x1="0" y1="21" x2="30" y2="21" stroke="#4a3e3c" stroke-width="1.5" />
-    <line x1="29" y1="0" x2="29" y2="22" stroke="#4a3e3c" stroke-width="1.5" />
-    <path d="M 10,6 L 20,11 L 10,16 Z" fill="#ff758f" />
+    <rect x="0" y="0" width="30" height="22" stroke="#ffffff" stroke-width="1.5" fill="none" />
+    <path d="M 10,6 L 20,11 L 10,16 Z" fill="#ff007f" />
   </g>
 
   <!-- Pause Button -->
   <g transform="translate(95, 315)">
-    <rect x="0" y="0" width="30" height="22" fill="#f5e6e3" />
-    <line x1="0" y1="0" x2="30" y2="0" stroke="#ffffff" stroke-width="1.5" />
-    <line x1="0" y1="0" x2="0" y2="22" stroke="#ffffff" stroke-width="1.5" />
-    <line x1="0" y1="21" x2="30" y2="21" stroke="#4a3e3c" stroke-width="1.5" />
-    <line x1="29" y1="0" x2="29" y2="22" stroke="#4a3e3c" stroke-width="1.5" />
-    <rect x="9" y="6" width="4" height="10" fill="#ff758f" />
-    <rect x="17" y="6" width="4" height="10" fill="#ff758f" />
+    <rect x="0" y="0" width="30" height="22" stroke="#ffffff" stroke-width="1.5" fill="none" />
+    <rect x="9" y="6" width="4" height="10" fill="#ff007f" />
+    <rect x="17" y="6" width="4" height="10" fill="#ff007f" />
   </g>
 
   <!-- Stop Button -->
   <g transform="translate(130, 315)">
-    <rect x="0" y="0" width="30" height="22" fill="#f5e6e3" />
-    <line x1="0" y1="0" x2="30" y2="0" stroke="#ffffff" stroke-width="1.5" />
-    <line x1="0" y1="0" x2="0" y2="22" stroke="#ffffff" stroke-width="1.5" />
-    <line x1="0" y1="21" x2="30" y2="21" stroke="#4a3e3c" stroke-width="1.5" />
-    <line x1="29" y1="0" x2="29" y2="22" stroke="#4a3e3c" stroke-width="1.5" />
-    <rect x="9" y="6" width="12" height="10" fill="#ff758f" />
+    <rect x="0" y="0" width="30" height="22" stroke="#ffffff" stroke-width="1.5" fill="none" />
+    <rect x="9" y="6" width="12" height="10" fill="#ff007f" />
   </g>
 
   <!-- Next Button -->
   <g transform="translate(165, 315)">
-    <rect x="0" y="0" width="30" height="22" fill="#f5e6e3" />
-    <line x1="0" y1="0" x2="30" y2="0" stroke="#ffffff" stroke-width="1.5" />
-    <line x1="0" y1="0" x2="0" y2="22" stroke="#ffffff" stroke-width="1.5" />
-    <line x1="0" y1="21" x2="30" y2="21" stroke="#4a3e3c" stroke-width="1.5" />
-    <line x1="29" y1="0" x2="29" y2="22" stroke="#4a3e3c" stroke-width="1.5" />
-    <path d="M 22,11 L 14,6 L 14,16 Z M 13,11 L 8,7 L 8,15 Z" fill="#ff758f" />
-    <line x1="24" y1="6" x2="24" y2="16" stroke="#ff758f" stroke-width="1.5" />
+    <rect x="0" y="0" width="30" height="22" stroke="#ffffff" stroke-width="1.5" fill="none" />
+    <path d="M 22,11 L 14,6 L 14,16 Z M 13,11 L 8,7 L 8,15 Z" fill="#ff007f" />
+    <line x1="24" y1="6" x2="24" y2="16" stroke="#ff007f" stroke-width="1.5" />
   </g>
 
   <!-- Volume Slider -->
-  <text x="212" y="329" font-family="'MS Sans Serif', Arial, sans-serif" font-size="9" font-weight="bold" fill="#8a7673">VOL</text>
+  <text x="212" y="329" font-family="'MS Sans Serif', Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">VOL</text>
   <!-- Inset Slider Line -->
-  <rect x="240" y="323" width="170" height="6" fill="#ffffff" />
-  <line x1="240" y1="323" x2="410" y2="323" stroke="#8a7673" stroke-width="1" />
-  <line x1="240" y1="323" x2="240" y2="329" stroke="#8a7673" stroke-width="1" />
-  <line x1="240" y1="329" x2="410" y2="329" stroke="#ffffff" stroke-width="0.8" />
-  <line x1="409" y1="323" x2="409" y2="329" stroke="#ffffff" stroke-width="0.8" />
+  <rect x="240" y="323" width="170" height="6" stroke="#ffffff" stroke-width="1" fill="none" />
   
   <!-- Slider Thumb -->
   <g transform="translate(330, 314)">
-    <rect x="0" y="0" width="10" height="24" fill="#f5e6e3" />
-    <line x1="0" y1="0" x2="10" y2="0" stroke="#ffffff" stroke-width="1" />
-    <line x1="0" y1="0" x2="0" y2="24" stroke="#ffffff" stroke-width="1" />
-    <line x1="0" y1="23" x2="10" y2="23" stroke="#4a3e3c" stroke-width="1" />
-    <line x1="9" y1="0" x2="9" y2="24" stroke="#4a3e3c" stroke-width="1" />
-    <line x1="5" y1="4" x2="5" y2="20" stroke="#ff758f" stroke-width="1.5" />
+    <rect x="0" y="0" width="10" height="24" stroke="#ffffff" stroke-width="1.5" fill="#eeeeee" />
+    <line x1="5" y1="4" x2="5" y2="20" stroke="#ff007f" stroke-width="1.5" />
   </g>
 
   <!-- KBPS / KHz Stats info box -->
   <g transform="translate(25, 347)">
-    <rect x="0" y="0" width="395" height="22" fill="#ffffff" />
-    <line x1="0" y1="0" x2="395" y2="0" stroke="#8a7673" stroke-width="1" />
-    <line x1="0" y1="0" x2="0" y2="22" stroke="#8a7673" stroke-width="1" />
-    <line x1="0" y1="21" x2="395" y2="21" stroke="#ffffff" stroke-width="0.8" />
-    <line x1="394" y1="0" x2="394" y2="22" stroke="#ffffff" stroke-width="0.8" />
-    <text x="10" y="14" font-family="'Courier New', Courier, monospace" font-size="9" font-weight="bold" fill="#ff758f">KBPS: 320  |  KHZ: 44.1  |  SONG: Lofi_Pixel_Cat.mp3</text>
+    <rect x="0" y="0" width="395" height="22" stroke="#ffffff" stroke-width="1.2" fill="none" />
+    <rect x="1" y="1" width="393" height="20" stroke="#8a8a8c" stroke-width="0.8" fill="none" />
+    <text x="10" y="14" font-family="'Courier New', Courier, monospace" font-size="9" font-weight="bold" fill="#ff007f">KBPS: 320  |  KHZ: 44.1  |  SONG: Lofi_Pixel_Cat.mp3</text>
   </g>
 </svg>
