@@ -10,15 +10,41 @@
     .pill-vscode { animation: float-pill 3s ease-in-out infinite 0.5s; }
     .pill-django { animation: float-pill 3s ease-in-out infinite 0.7s; }
     .pill-pytest { animation: float-pill 3s ease-in-out infinite 0.9s; }
+    .title-bar {
+      fill: #ffffff;
+    }
+    .title-text {
+      fill: #ff007f;
+    }
+    .border-light {
+      stroke: #ffffff;
+    }
+    .text-light {
+      fill: #ffffff;
+    }
+    @media (prefers-color-scheme: light) {
+      .title-bar {
+        fill: #ff007f;
+      }
+      .title-text {
+        fill: #ffffff;
+      }
+      .border-light {
+        stroke: #1a1a24;
+      }
+      .text-light {
+        fill: #1a1a24;
+      }
+    }
   </style>
 
   <!-- Outer Bevel Shell (Transparent with White Bevel) -->
-  <rect x="1" y="1" width="278" height="158" stroke="#ffffff" stroke-width="2" rx="4" />
+  <rect x="1" y="1" width="278" height="158" class="border-light" stroke-width="2" rx="4" />
   <rect x="2" y="2" width="276" height="156" stroke="#8a8a8c" stroke-width="0.8" rx="3" fill="none" />
 
   <!-- Title Bar (Solid White) -->
-  <rect x="4" y="4" width="272" height="18" fill="#ffffff" />
-  <text x="10" y="17" font-family="'MS Sans Serif', Arial, sans-serif" font-size="9" font-weight="bold" fill="#ff007f">Tools.sys</text>
+  <rect x="4" y="4" width="272" height="18" class="title-bar" />
+  <text x="10" y="17" font-family="'MS Sans Serif', Arial, sans-serif" font-size="9" font-weight="bold" class="title-text">Tools.sys</text>
 
   <!-- Close [X] button -->
   <g transform="translate(260, 8)">
@@ -37,56 +63,56 @@
   <!-- .NET Pill -->
   <g class="pill-net">
     <g transform="translate(14, 40)">
-      <rect x="0" y="0" width="56" height="28" stroke="#ffffff" stroke-width="1.5" fill="none" />
+      <rect x="0" y="0" width="56" height="28" class="border-light" stroke-width="1.5" fill="none" />
       <line x1="0" y1="27" x2="56" y2="27" stroke="#8a8a8c" stroke-width="1" />
       <line x1="55" y1="0" x2="55" y2="28" stroke="#8a8a8c" stroke-width="1" />
-      <text x="28" y="17" font-family="'MS Sans Serif', Arial, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">.NET</text>
+      <text x="28" y="17" font-family="'MS Sans Serif', Arial, sans-serif" font-size="10" font-weight="bold" class="text-light" text-anchor="middle">.NET</text>
     </g>
   </g>
 
   <!-- Git Pill -->
   <g class="pill-git">
     <g transform="translate(78, 40)">
-      <rect x="0" y="0" width="48" height="28" stroke="#ffffff" stroke-width="1.5" fill="none" />
+      <rect x="0" y="0" width="48" height="28" class="border-light" stroke-width="1.5" fill="none" />
       <line x1="0" y1="27" x2="48" y2="27" stroke="#8a8a8c" stroke-width="1" />
       <line x1="47" y1="0" x2="47" y2="28" stroke="#8a8a8c" stroke-width="1" />
-      <text x="24" y="17" font-family="'MS Sans Serif', Arial, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">Git</text>
+      <text x="24" y="17" font-family="'MS Sans Serif', Arial, sans-serif" font-size="10" font-weight="bold" class="text-light" text-anchor="middle">Git</text>
     </g>
   </g>
 
   <!-- VS Code Pill -->
   <g class="pill-vscode">
     <g transform="translate(134, 40)">
-      <rect x="0" y="0" width="80" height="28" stroke="#ffffff" stroke-width="1.5" fill="none" />
+      <rect x="0" y="0" width="80" height="28" class="border-light" stroke-width="1.5" fill="none" />
       <line x1="0" y1="27" x2="80" y2="27" stroke="#8a8a8c" stroke-width="1" />
       <line x1="79" y1="0" x2="79" y2="28" stroke="#8a8a8c" stroke-width="1" />
-      <text x="40" y="17" font-family="'MS Sans Serif', Arial, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">VS Code</text>
+      <text x="40" y="17" font-family="'MS Sans Serif', Arial, sans-serif" font-size="10" font-weight="bold" class="text-light" text-anchor="middle">VS Code</text>
     </g>
   </g>
 
   <!-- Django Pill -->
   <g class="pill-django">
     <g transform="translate(14, 76)">
-      <rect x="0" y="0" width="80" height="28" stroke="#ffffff" stroke-width="1.5" fill="none" />
+      <rect x="0" y="0" width="80" height="28" class="border-light" stroke-width="1.5" fill="none" />
       <line x1="0" y1="27" x2="80" y2="27" stroke="#8a8a8c" stroke-width="1" />
       <line x1="79" y1="0" x2="79" y2="28" stroke="#8a8a8c" stroke-width="1" />
-      <text x="40" y="17" font-family="'MS Sans Serif', Arial, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">Django</text>
+      <text x="40" y="17" font-family="'MS Sans Serif', Arial, sans-serif" font-size="10" font-weight="bold" class="text-light" text-anchor="middle">Django</text>
     </g>
   </g>
 
   <!-- Pytest Pill -->
   <g class="pill-pytest">
     <g transform="translate(102, 76)">
-      <rect x="0" y="0" width="75" height="28" stroke="#ffffff" stroke-width="1.5" fill="none" />
+      <rect x="0" y="0" width="75" height="28" class="border-light" stroke-width="1.5" fill="none" />
       <line x1="0" y1="27" x2="75" y2="27" stroke="#8a8a8c" stroke-width="1" />
       <line x1="74" y1="0" x2="74" y2="28" stroke="#8a8a8c" stroke-width="1" />
-      <text x="37.5" y="17" font-family="'MS Sans Serif', Arial, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">Pytest</text>
+      <text x="37.5" y="17" font-family="'MS Sans Serif', Arial, sans-serif" font-size="10" font-weight="bold" class="text-light" text-anchor="middle">Pytest</text>
     </g>
   </g>
 
   <!-- Bottom Inset Console/Status Bar -->
   <g transform="translate(14, 114)">
-    <rect x="0" y="0" width="252" height="30" stroke="#ffffff" stroke-width="1.2" fill="none" />
+    <rect x="0" y="0" width="252" height="30" class="border-light" stroke-width="1.2" fill="none" />
     <rect x="1" y="1" width="250" height="28" stroke="#8a8a8c" stroke-width="0.8" fill="none" />
     <text x="10" y="19" font-family="'Courier New', Courier, monospace" font-size="9" font-weight="bold" fill="#ff007f">C:\TOOLS&gt; dir /w</text>
   </g>

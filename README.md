@@ -25,10 +25,10 @@
   <tr>
     <td width="50%" valign="top" style="padding-right: 20px;">
       <h2 style="color: #ff007f; font-family: 'MS Sans Serif', Arial, sans-serif; font-size: 28px; margin-top: 0; margin-bottom: 15px;">Sobre Mí</h2>
-      <p style="color: #e0e0e3; font-family: 'Segoe UI', Arial, sans-serif; font-size: 16px; line-height: 1.6; margin-bottom: 15px;">
+      <p style="font-family: 'Segoe UI', Arial, sans-serif; font-size: 16px; line-height: 1.6; margin-bottom: 15px;">
         ¡Hola! 👋 Soy Jimena Sanchez, estudiante de la <b>Carrera de Informática</b>. Me interesa el desarrollo de software y resolver problemas lógicos para dar vida a las ideas a través de la programación.
       </p>
-      <p style="color: #e0e0e3; font-family: 'Segoe UI', Arial, sans-serif; font-size: 16px; line-height: 1.6; margin-bottom: 15px;">
+      <p style="font-family: 'Segoe UI', Arial, sans-serif; font-size: 16px; line-height: 1.6; margin-bottom: 15px;">
         Mi enfoque académico y profesional está centrado en el desarrollo de software robusto usando <b>C#</b> y la automatización y análisis con <b>Python</b>. Siempre estoy buscando aprender nuevas tecnologías y metodologías que me permitan crecer como profesional.
       </p>
       <p style="color: #ff007f; font-family: 'MS Sans Serif', Arial, sans-serif; font-size: 14px; font-weight: bold; margin-top: 20px;">
@@ -80,7 +80,7 @@
     <td valign="top" style="padding-left: 20px; padding-bottom: 30px;">
       <h3 style="color: #ff007f; font-family: 'MS Sans Serif', Arial, sans-serif; font-size: 18px; margin: 0 0 5px 0;">Estudiante de Informática / Desarrollador Autónomo</h3>
       <p style="color: #a0a0a5; font-family: 'MS Sans Serif', Arial, sans-serif; font-size: 13px; margin: 0 0 10px 0; font-weight: bold;">Universidad de Informática</p>
-      <p style="color: #e0e0e3; font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; line-height: 1.5; margin: 0;">
+      <p style="font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; line-height: 1.5; margin: 0;">
         Especialización en materias de Algoritmos, Estructuras de Datos y Programación Orientada a Objetos. Creación de proyectos personales utilizando C# para aplicaciones de escritorio.
       </p>
     </td>
@@ -93,7 +93,7 @@
     <td valign="top" style="padding-left: 20px; padding-bottom: 20px;">
       <h3 style="color: #ff007f; font-family: 'MS Sans Serif', Arial, sans-serif; font-size: 18px; margin: 0 0 5px 0;">Primeros Pasos en Programación</h3>
       <p style="color: #a0a0a5; font-family: 'MS Sans Serif', Arial, sans-serif; font-size: 13px; margin: 0 0 10px 0; font-weight: bold;">Proyectos de Aprendizaje</p>
-      <p style="color: #e0e0e3; font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; line-height: 1.5; margin: 0;">
+      <p style="font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; line-height: 1.5; margin: 0;">
         Inicio del trayecto académico en Informática. Desarrollo de la lógica de programación mediante la resolución de problemas básicos en C# y la creación de pequeños scrapers y utilidades en Python.
       </p>
     </td>
@@ -110,7 +110,7 @@
   <tr>
     <td align="center">
       <h3 style="color: #ff007f; font-family: 'MS Sans Serif', Arial, sans-serif; font-size: 20px; margin-top: 0; margin-bottom: 15px;">¡Hablemos! 💬</h3>
-      <p style="color: #e0e0e3; font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; margin-bottom: 20px;">
+      <p style="font-family: 'Segoe UI', Arial, sans-serif; font-size: 14px; margin-bottom: 20px;">
         Si quieres colaborar en algún proyecto, tienes preguntas o solo quieres decir hola, ¡no dudes en contactarme!
       </p>
       <p>

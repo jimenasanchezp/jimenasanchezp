@@ -41,18 +41,44 @@
     .power-led {
       animation: led-pulse 2s infinite;
     }
+    .title-bar {
+      fill: #ffffff;
+    }
+    .title-text {
+      fill: #ff007f;
+    }
+    .border-light {
+      stroke: #ffffff;
+    }
+    .text-light {
+      fill: #ffffff;
+    }
+    @media (prefers-color-scheme: light) {
+      .title-bar {
+        fill: #ff007f;
+      }
+      .title-text {
+        fill: #ffffff;
+      }
+      .border-light {
+        stroke: #1a1a24;
+      }
+      .text-light {
+        fill: #1a1a24;
+      }
+    }
   </style>
 
   <!-- 1. WINDOW SHELL (Transparent base with White 3D Bevel) -->
   <!-- Outer Bevel: White highlights, grey/white shadows -->
-  <rect x="1" y="1" width="798" height="278" stroke="#ffffff" stroke-width="2" rx="4" />
+  <rect x="1" y="1" width="798" height="278" class="border-light" stroke-width="2" rx="4" />
   <rect x="2" y="2" width="796" height="276" stroke="#8a8a8c" stroke-width="1" rx="3" />
 
   <!-- 2. TITLE BAR (Solid White) -->
-  <rect x="4" y="4" width="792" height="25" fill="#ffffff" />
+  <rect x="4" y="4" width="792" height="25" class="title-bar" />
 
   <!-- Title Text (Fucsia) -->
-  <text x="15" y="21" font-family="'MS Sans Serif', Arial, sans-serif" font-size="12" font-weight="bold" fill="#ff007f">Jimena_Sanchez.exe</text>
+  <text x="15" y="21" font-family="'MS Sans Serif', Arial, sans-serif" font-size="12" font-weight="bold" class="title-text">Jimena_Sanchez.exe</text>
 
   <!-- Windows Control Buttons (White/Light Grey with Fucsia icons) -->
   <!-- Minimize Button -->
@@ -74,25 +100,25 @@
   </g>
 
   <!-- 3. CLIENT AREA (Transparent Console Box with White Border) -->
-  <rect x="15" y="42" width="460" height="223" stroke="#ffffff" stroke-width="1.5" fill="none" />
+  <rect x="15" y="42" width="460" height="223" class="border-light" stroke-width="1.5" fill="none" />
   <rect x="16" y="43" width="458" height="221" stroke="#8a8a8c" stroke-width="0.8" fill="none" />
 
   <!-- Console Text (White & Fucsia) -->
   <text x="30" y="75" font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" fill="#ff007f">C:\WINDOWS\SYSTEM&gt; type info.txt</text>
   
-  <text x="30" y="110" font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" fill="#ffffff">
+  <text x="30" y="110" font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" class="text-light">
     Nombre: <tspan fill="#ff007f">Jimena Sanchez</tspan>
   </text>
   
-  <text x="30" y="140" font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" fill="#ffffff">
+  <text x="30" y="140" font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" class="text-light">
     Carrera: <tspan fill="#a0a0a5">Estudiante de Informática</tspan>
   </text>
 
-  <text x="30" y="170" font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" fill="#ffffff">
+  <text x="30" y="170" font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" class="text-light">
     Stack: <tspan fill="#ff007f">C#</tspan> | <tspan fill="#ff007f">Python</tspan> | <tspan fill="#ff007f">.NET</tspan>
   </text>
 
-  <text x="30" y="205" font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" fill="#ffffff">
+  <text x="30" y="205" font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" class="text-light">
     Estado: <tspan fill="#ff007f">Activamente buscando proyectos... ✨</tspan>
   </text>
 
@@ -106,28 +132,28 @@
     <!-- The Computer Group (Floating/Breathing) -->
     <g class="cat-group">
       <!-- Monitor Stand / Neck -->
-      <path d="M 205,250 L 235,250 L 245,266 L 195,266 Z" fill="none" stroke="#ffffff" stroke-width="1.5" />
+      <path d="M 205,250 L 235,250 L 245,266 L 195,266 Z" fill="none" class="border-light" stroke-width="1.5" />
       <line x1="197" y1="265" x2="243" y2="265" stroke="#ff007f" stroke-width="1" />
 
       <!-- Desktop Case (Horizontal Tower) -->
-      <rect x="120" y="265" width="200" height="40" stroke="#ffffff" stroke-width="2" fill="none" />
+      <rect x="120" y="265" width="200" height="40" class="border-light" stroke-width="2" fill="none" />
       <line x1="121" y1="303" x2="319" y2="303" stroke="#8a8a8c" stroke-width="1" />
       
       <!-- Floppy drive slot -->
       <rect x="135" y="278" width="45" height="4" fill="#ff007f" />
-      <rect x="145" y="280" width="3" height="3" fill="#ffffff" />
+      <rect x="145" y="280" width="3" height="3" class="text-light" />
       <!-- CD-ROM Drive slot -->
-      <rect x="135" y="288" width="60" height="8" stroke="#ffffff" stroke-width="1.2" fill="none" />
+      <rect x="135" y="288" width="60" height="8" class="border-light" stroke-width="1.2" fill="none" />
       <rect x="185" y="291" width="6" height="2" fill="#ff007f" />
       <!-- Power button (LED) -->
       <circle class="power-led" cx="295" cy="285" r="4" fill="#ff007f" />
 
       <!-- Monitor Casing -->
-      <rect x="140" y="130" width="160" height="120" rx="14" stroke="#ffffff" stroke-width="2" fill="none" />
+      <rect x="140" y="130" width="160" height="120" rx="14" class="border-light" stroke-width="2" fill="none" />
       <rect x="141" y="131" width="158" height="118" rx="13" stroke="#8a8a8c" stroke-width="1" fill="none" />
 
       <!-- Screen Frame Bezel -->
-      <rect x="152" y="142" width="136" height="96" rx="8" stroke="#ffffff" stroke-width="1.2" fill="none" />
+      <rect x="152" y="142" width="136" height="96" rx="8" class="border-light" stroke-width="1.2" fill="none" />
 
       <!-- Screen Glass (Neon Fucsia) -->
       <rect x="162" y="152" width="116" height="76" rx="4" stroke="#ff007f" stroke-width="1.8" fill="none" />
@@ -150,7 +176,7 @@
     <!-- Sparkle 1 (Fucsia) -->
     <path class="sparkle" d="M 105,220 L 108,231 L 119,234 L 108,237 L 105,248 L 102,237 L 91,234 L 102,231 Z" fill="#ff007f" />
     <!-- Sparkle 2 (White) -->
-    <path class="sparkle" d="M 125,113 L 127,121 L 135,123 L 127,125 L 125,133 L 123,125 L 115,123 L 123,121 Z" fill="#ffffff" style="animation-delay: 2s;" />
+    <path class="sparkle text-light" d="M 125,113 L 127,121 L 135,123 L 127,125 L 125,133 L 123,125 L 115,123 L 123,121 Z" style="animation-delay: 2s;" />
     <!-- Plus Icon (Fucsia) -->
     <g transform="translate(315, 105)">
       <rect x="8" y="0" width="4" height="20" rx="1" fill="#ff007f" />

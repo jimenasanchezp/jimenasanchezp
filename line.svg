@@ -7,9 +7,17 @@
     .flow-line {
       animation: flow 2s linear infinite;
     }
+    .line-bg {
+      stroke: #ffffff;
+    }
+    @media (prefers-color-scheme: light) {
+      .line-bg {
+        stroke: #1a1a24;
+      }
+    }
   </style>
   <!-- Background line (Muted White) -->
-  <line x1="2" y1="0" x2="2" y2="90" stroke="#ffffff" stroke-width="4" opacity="0.15" />
+  <line class="line-bg" x1="2" y1="0" x2="2" y2="90" stroke-width="4" opacity="0.15" />
   <!-- Animating dotted signal line (Neon Fuchsia) -->
   <line class="flow-line" x1="2" y1="0" x2="2" y2="90" stroke="#ff007f" stroke-width="4" stroke-dasharray="10 15" />
 </svg>
