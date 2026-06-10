@@ -1,37 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50" fill="none">
   <style>
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
     @keyframes pulse {
       0%, 100% { transform: scale(1); }
       50% { transform: scale(1.04); }
     }
-    .badge-group {
+    .badge {
       transform-origin: 25px 25px;
       animation: pulse 3s ease-in-out infinite 1.5s;
     }
-    .ring {
-      transform-origin: 25px 25px;
-      animation: spin 15s linear infinite 1.5s;
-    }
   </style>
-  
-  <g class="badge-group">
-    <!-- Pixel Octagon Background -->
-    <path d="M 12,2 L 38,2 L 48,12 L 48,38 L 38,48 L 12,48 L 2,38 L 2,12 Z" fill="#1c1917" stroke="#d4c5b9" stroke-width="1.5" />
+  <g class="badge">
+    <!-- Floppy Body (Pastel Pink) -->
+    <path d="M 6,4 L 38,4 L 46,12 L 46,44 L 6,44 Z" fill="#ffb3c1" />
     
-    <!-- Spinning Inner Pattern -->
-    <path class="ring" d="M 14,4 L 36,4 L 46,14 L 46,36 L 36,46 L 14,46 L 4,36 L 4,14 Z" fill="none" stroke="#e6ca9c" stroke-width="1" stroke-dasharray="5 3" />
-    
-    <!-- Small corner pixel dots -->
-    <rect x="6" y="6" width="2" height="2" fill="#e6ca9c" />
-    <rect x="42" y="6" width="2" height="2" fill="#e6ca9c" />
-    <rect x="6" y="42" width="2" height="2" fill="#e6ca9c" />
-    <rect x="42" y="42" width="2" height="2" fill="#e6ca9c" />
+    <!-- 3D Bevel on floppy -->
+    <path d="M 6,4 L 38,4 L 46,12" stroke="#ffffff" stroke-width="1.5" stroke-linecap="square" />
+    <path d="M 6,4 L 6,44 M 7,43 L 45,43" stroke="#ffffff" stroke-width="1.5" stroke-linecap="square" />
+    <path d="M 46,12 L 46,44 L 6,44" stroke="#4a3e3c" stroke-width="1.5" stroke-linecap="square" />
+    <path d="M 45,13 L 45,43 L 7,43" stroke="#8a7673" stroke-width="1" stroke-linecap="square" />
 
-    <!-- Text -->
-    <text x="25" y="29" font-family="'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="bold" fill="#f3eee3" text-anchor="middle">2026</text>
+    <!-- Sliding Shutter (Silver/White) -->
+    <rect x="14" y="6" width="14" height="10" fill="#f5e6e3" />
+    <line x1="14" y1="6" x2="28" y2="6" stroke="#ffffff" stroke-width="1" />
+    <line x1="14" y1="6" x2="14" y2="16" stroke="#ffffff" stroke-width="1" />
+    <line x1="14" y1="16" x2="28" y2="16" stroke="#8a7673" stroke-width="1" />
+    <line x1="28" y1="6" x2="28" y2="16" stroke="#8a7673" stroke-width="1" />
+    
+    <!-- Shutter cutout window -->
+    <rect x="18" y="8" width="6" height="5" fill="#4a3e3c" />
+
+    <!-- Label (White) -->
+    <rect x="10" y="20" width="30" height="20" fill="#ffffff" />
+    <rect x="10" y="20" width="30" height="20" stroke="#8a7673" stroke-width="1" fill="none" />
+    <!-- Mini color strip on label (Fucsia chicle) -->
+    <rect x="11" y="21" width="28" height="3" fill="#ff758f" />
+
+    <!-- Year Text -->
+    <text x="25" y="34" font-family="'Courier New', Courier, monospace" font-size="9" font-weight="bold" fill="#4a3e3c" text-anchor="middle">2026</text>
+
+    <!-- Write protect hole (bottom right) -->
+    <rect x="38" y="38" width="4" height="4" fill="#4a3e3c" />
   </g>
 </svg>

@@ -8,8 +8,8 @@
       animation: flow 2s linear infinite;
     }
   </style>
-  <!-- Background line -->
-  <line x1="2" y1="0" x2="2" y2="90" stroke="#1c1917" stroke-width="4" opacity="0.8" />
-  <!-- Animating dotted signal line -->
-  <line class="flow-line" x1="2" y1="0" x2="2" y2="90" stroke="#e6ca9c" stroke-width="4" stroke-dasharray="10 15" />
+  <!-- Background line (Dark Pinkish Grey) -->
+  <line x1="2" y1="0" x2="2" y2="90" stroke="#8a7673" stroke-width="4" opacity="0.3" />
+  <!-- Animating dotted signal line (Chicle Fucsia) -->
+  <line class="flow-line" x1="2" y1="0" x2="2" y2="90" stroke="#ff758f" stroke-width="4" stroke-dasharray="10 15" />
 </svg>
