@@ -132,7 +132,7 @@
   </text>
 
   <text x="30" y="205" font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" fill="#4a3e3c">
-    Estado: <tspan fill="#ff758f">Activamente buscando proyectos Y2K... ✨</tspan>
+    Estado: <tspan fill="#ff758f">Activamente buscando proyectos... ✨</tspan>
   </text>
 
   <text x="30" y="240" font-family="'Courier New', Courier, monospace" font-size="14" font-weight="bold" fill="#ff758f">> <tspan class="cursor" fill="#ff758f">_</tspan></text>

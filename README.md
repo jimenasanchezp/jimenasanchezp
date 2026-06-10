@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner-hero.svg?v=3" width="100%" alt="Jimena Sanchez - Informatics" />
+  <img src="./banner-hero.svg?v=4" width="100%" alt="Jimena Sanchez - Informatics" />
 </p>
 
 <!-- NAVEGACIÓN -->
@@ -36,7 +36,7 @@
     </td>
     <td width="50%" align="center" valign="middle">
       <!-- Reproductor Winamp del gato pixel art -->
-      <img src="./cat-animation.svg?v=2" width="100%" alt="Winamp Cat Player" />
+      <img src="./cat-animation.svg?v=3" width="100%" alt="Winamp Cat Player" />
     </td>
   </tr>
 </table>

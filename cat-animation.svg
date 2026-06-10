@@ -82,7 +82,7 @@
 
   <!-- 3. MEDIA VISUALIZATION SCREEN (Client Area) -->
   <!-- Screen Box -->
-  <rect x="20" y="42" width="410" height="260" fill="#1c1917" />
+  <rect x="20" y="42" width="410" height="260" fill="#ffccd5" />
   <!-- Inset Bevel Shadow -->
   <line x1="20" y1="42" x2="430" y2="42" stroke="#8a7673" stroke-width="1.5" />
   <line x1="20" y1="42" x2="20" y2="302" stroke="#8a7673" stroke-width="1.5" />
