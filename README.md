@@ -1,6 +1,5 @@
-<!-- CABECERA Y BANNER HERO -->
 <p align="center">
-  <img src="./banner-hero.svg?v=2" width="100%" alt="Jimena Sanchez - Informatics" />
+  <img src="./banner-hero.svg?v=3" width="100%" alt="Jimena Sanchez - Informatics" />
 </p>
 
 <!-- NAVEGACIÓN -->

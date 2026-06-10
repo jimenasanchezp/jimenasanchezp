@@ -39,7 +39,7 @@
       animation: tail-wag 2.5s ease-in-out infinite;
     }
     .cat-eyes {
-      transform-origin: 220px 170px;
+      transform-origin: 220px 185px;
       animation: eyes-blink 5.5s infinite;
     }
     .shadow-ellipse {
@@ -142,62 +142,55 @@
     <!-- Shadow below cat -->
     <ellipse class="shadow-ellipse" cx="220" cy="320" rx="90" ry="12" fill="#ffb3c1" opacity="0.3" />
 
-    <!-- The Cat Group (Breathing/Floating) -->
+    <!-- The Computer Group (Floating/Breathing) -->
     <g class="cat-group">
-      <!-- Tail (Wagging) -->
-      <g class="cat-tail" fill="#fff5f5">
-        <rect x="120" y="180" width="16" height="16" rx="2" />
-        <rect x="104" y="196" width="16" height="16" rx="2" />
-        <rect x="120" y="212" width="16" height="32" rx="2" />
-        <rect x="136" y="228" width="16" height="16" rx="2" />
-      </g>
+      <!-- Monitor Stand / Neck -->
+      <path d="M 205,250 L 235,250 L 245,266 L 195,266 Z" fill="#ecdcd9" stroke="#8a7673" stroke-width="1.2" />
+      <line x1="197" y1="265" x2="243" y2="265" stroke="#ffffff" stroke-width="1" />
 
-      <!-- Cat Body & Head -->
-      <g fill="#fff5f5">
-        <!-- Ears -->
-        <rect x="160" y="100" width="16" height="16" rx="2" />
-        <rect x="176" y="116" width="16" height="16" rx="2" />
-        <rect x="160" y="116" width="16" height="16" rx="2" />
-        
-        <rect x="264" y="100" width="16" height="16" rx="2" />
-        <rect x="248" y="116" width="16" height="16" rx="2" />
-        <rect x="264" y="116" width="16" height="16" rx="2" />
+      <!-- Desktop Case (Horizontal Tower) -->
+      <rect x="120" y="265" width="200" height="40" fill="#f5e6e3" />
+      <line x1="120" y1="265" x2="320" y2="265" stroke="#ffffff" stroke-width="1.8" />
+      <line x1="120" y1="265" x2="120" y2="305" stroke="#ffffff" stroke-width="1.8" />
+      <line x1="120" y1="304" x2="320" y2="304" stroke="#4a3e3c" stroke-width="1.8" />
+      <line x1="319" y1="265" x2="319" y2="305" stroke="#4a3e3c" stroke-width="1.8" />
+      <line x1="121" y1="303" x2="319" y2="303" stroke="#8a7673" stroke-width="1" />
+      <line x1="318" y1="266" x2="318" y2="304" stroke="#8a7673" stroke-width="1" />
 
-        <!-- Head Base -->
-        <rect x="176" y="132" width="88" height="64" rx="4" />
-        <!-- Cheeks -->
-        <rect x="160" y="148" width="16" height="32" rx="2" />
-        <rect x="264" y="148" width="16" height="32" rx="2" />
+      <!-- Floppy drive slot -->
+      <rect x="135" y="278" width="45" height="4" fill="#4a3e3c" />
+      <rect x="145" y="280" width="3" height="3" fill="#ff758f" />
+      <!-- CD-ROM Drive slot -->
+      <rect x="135" y="288" width="60" height="8" fill="#ecdcd9" stroke="#8a7673" stroke-width="1" />
+      <rect x="185" y="291" width="6" height="2" fill="#ff758f" />
+      <!-- Power button (LED) -->
+      <circle cx="295" cy="285" r="4" fill="#ff758f" />
+      <circle cx="295" cy="285" r="2" fill="#ffffff" opacity="0.6" />
 
-        <!-- Body / Torso -->
-        <rect x="160" y="196" width="120" height="80" rx="6" />
-        <!-- Paws -->
-        <rect x="176" y="276" width="24" height="16" rx="3" />
-        <rect x="240" y="276" width="24" height="16" rx="3" />
-      </g>
+      <!-- Monitor Casing -->
+      <rect x="140" y="130" width="160" height="120" rx="14" fill="#f5e6e3" />
+      <rect x="140" y="130" width="160" height="120" rx="14" stroke="#ffffff" stroke-width="1.8" fill="none" />
+      <rect x="141" y="131" width="158" height="118" rx="13" stroke="#8a7673" stroke-width="1.2" fill="none" />
 
-      <!-- Inner Ears (Pastel Pink/Gold Accent) -->
-      <g fill="#ff758f">
-        <rect x="164" y="120" width="8" height="8" rx="1" />
-        <rect x="268" y="120" width="8" height="8" rx="1" />
-      </g>
+      <!-- Screen Frame Bezel -->
+      <rect x="152" y="142" width="136" height="96" rx="8" fill="#ecdcd9" stroke="#8a7673" stroke-width="1.2" />
 
-      <!-- Cute Blushing Cheeks -->
-      <rect x="180" y="174" width="10" height="4" fill="#ff758f" opacity="0.8" rx="1" />
-      <rect x="250" y="174" width="10" height="4" fill="#ff758f" opacity="0.8" rx="1" />
+      <!-- Screen Glass (Neon Pink) -->
+      <rect x="162" y="152" width="116" height="76" rx="4" fill="#ff758f" />
+      <rect x="162" y="152" width="116" height="76" rx="4" stroke="#4a3e3c" stroke-width="1.5" fill="none" />
+
+      <!-- Kawaii blushing cheeks on screen -->
+      <ellipse cx="178" cy="198" rx="8" ry="4" fill="#ffffff" opacity="0.6" />
+      <ellipse cx="262" cy="198" rx="8" ry="4" fill="#ffffff" opacity="0.6" />
+
+      <!-- Smile -->
+      <path d="M 215,198 Q 220,204 225,198" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" fill="none" />
 
       <!-- Eyes (Blinking Group) -->
       <g class="cat-eyes">
-        <!-- Left Eye -->
-        <rect x="192" y="156" width="12" height="20" rx="2" fill="#ffffff" />
-        <rect x="196" y="160" width="8" height="12" rx="1" fill="#4a3e3c" />
-        <!-- Right Eye -->
-        <rect x="236" y="156" width="12" height="20" rx="2" fill="#ffffff" />
-        <rect x="240" y="160" width="8" height="12" rx="1" fill="#4a3e3c" />
+        <path d="M 185,188 L 195,182 L 205,188" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" fill="none" />
+        <path d="M 235,188 L 245,182 L 255,188" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" fill="none" />
       </g>
-
-      <!-- Nose / Mouth -->
-      <rect x="216" y="176" width="8" height="6" rx="1.5" fill="#4a3e3c" />
     </g>
 
     <!-- Kawaii Y2K Sparkles -->
