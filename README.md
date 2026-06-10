@@ -1,6 +1,6 @@
 <!-- CABECERA Y BANNER HERO -->
 <p align="center">
-  <img src="./banner-hero.svg" width="100%" alt="Jimena Sanchez - Informatics" />
+  <img src="./banner-hero.svg?v=2" width="100%" alt="Jimena Sanchez - Informatics" />
 </p>
 
 <!-- NAVEGACIÓN -->
@@ -37,7 +37,7 @@
     </td>
     <td width="50%" align="center" valign="middle">
       <!-- Reproductor Winamp del gato pixel art -->
-      <img src="./cat-animation.svg" width="100%" alt="Winamp Cat Player" />
+      <img src="./cat-animation.svg?v=2" width="100%" alt="Winamp Cat Player" />
     </td>
   </tr>
 </table>
@@ -51,15 +51,15 @@
 <table border="0" width="100%" cellpadding="0" cellspacing="0">
   <tr>
     <td width="32%" align="center" valign="top">
-      <img src="./card-languages.svg" width="100%" alt="Lenguajes" />
+      <img src="./card-languages.svg?v=2" width="100%" alt="Lenguajes" />
     </td>
     <td width="2%"></td>
     <td width="32%" align="center" valign="top">
-      <img src="./card-education.svg" width="100%" alt="Educación" />
+      <img src="./card-education.svg?v=2" width="100%" alt="Educación" />
     </td>
     <td width="2%"></td>
     <td width="32%" align="center" valign="top">
-      <img src="./card-tools.svg" width="100%" alt="Herramientas &amp; Tech" />
+      <img src="./card-tools.svg?v=2" width="100%" alt="Herramientas &amp; Tech" />
     </td>
   </tr>
 </table>
@@ -74,8 +74,8 @@
   <!-- Fila 1: 2026 -->
   <tr>
     <td width="60" align="center" valign="top" style="padding-top: 5px;">
-      <img src="./badge-2026.svg" width="48" alt="2026" /><br>
-      <img src="./line.svg" width="4" height="90" alt="|" />
+      <img src="./badge-2026.svg?v=2" width="48" alt="2026" /><br>
+      <img src="./line.svg?v=2" width="4" height="90" alt="|" />
     </td>
     <td valign="top" style="padding-left: 20px; padding-bottom: 30px;">
       <h3 style="color: #ff758f; font-family: 'MS Sans Serif', Arial, sans-serif; font-size: 18px; margin: 0 0 5px 0;">Estudiante de Informática / Desarrollador Autónomo</h3>
@@ -88,7 +88,7 @@
   <!-- Fila 2: 2025 -->
   <tr>
     <td width="60" align="center" valign="top" style="padding-top: 5px;">
-      <img src="./badge-2025.svg" width="48" alt="2025" />
+      <img src="./badge-2025.svg?v=2" width="48" alt="2025" />
     </td>
     <td valign="top" style="padding-left: 20px; padding-bottom: 20px;">
       <h3 style="color: #ff758f; font-family: 'MS Sans Serif', Arial, sans-serif; font-size: 18px; margin: 0 0 5px 0;">Primeros Pasos en Programación</h3>
@@ -115,15 +115,15 @@
       </p>
       <p>
         <a href="mailto:jimenasanzp@gmail.com">
-          <img src="./button-email.svg" height="38" alt="Email" />
+          <img src="./button-email.svg?v=2" height="38" alt="Email" />
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <a href="https://instagram.com/hyjimn">
-          <img src="./button-instagram.svg" height="38" alt="Instagram" />
+          <img src="./button-instagram.svg?v=2" height="38" alt="Instagram" />
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <a href="https://github.com/jimenasanchezp">
-          <img src="./button-github.svg" height="38" alt="GitHub" />
+          <img src="./button-github.svg?v=2" height="38" alt="GitHub" />
         </a>
       </p>
     </td>
