@@ -156,7 +156,7 @@
       <rect x="152" y="142" width="136" height="96" rx="8" class="border-light" stroke-width="1.2" fill="#ffccd5" />
 
       <!-- Screen Glass (Neon Fucsia) -->
-      <rect x="162" y="152" width="116" height="76" rx="4" stroke="#ff007f" stroke-width="1.8" fill="#151518" />
+      <rect x="162" y="152" width="116" height="76" rx="4" stroke="#ff007f" stroke-width="1.8" fill="#ffffff" />
 
       <!-- Kawaii blushing cheeks on screen -->
       <ellipse cx="178" cy="198" rx="8" ry="4" fill="#ff007f" opacity="0.4" />
