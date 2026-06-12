@@ -132,31 +132,31 @@
     <!-- The Computer Group (Floating/Breathing) -->
     <g class="cat-group">
       <!-- Monitor Stand / Neck -->
-      <path d="M 205,250 L 235,250 L 245,266 L 195,266 Z" fill="none" class="border-light" stroke-width="1.5" />
+      <path d="M 205,250 L 235,250 L 245,266 L 195,266 Z" fill="#ffccd5" class="border-light" stroke-width="1.5" />
       <line x1="197" y1="265" x2="243" y2="265" stroke="#ff007f" stroke-width="1" />
 
       <!-- Desktop Case (Horizontal Tower) -->
-      <rect x="120" y="265" width="200" height="40" class="border-light" stroke-width="2" fill="none" />
+      <rect x="120" y="265" width="200" height="40" class="border-light" stroke-width="2" fill="#ffeef2" />
       <line x1="121" y1="303" x2="319" y2="303" stroke="#8a8a8c" stroke-width="1" />
       
       <!-- Floppy drive slot -->
       <rect x="135" y="278" width="45" height="4" fill="#ff007f" />
       <rect x="145" y="280" width="3" height="3" class="text-light" />
       <!-- CD-ROM Drive slot -->
-      <rect x="135" y="288" width="60" height="8" class="border-light" stroke-width="1.2" fill="none" />
+      <rect x="135" y="288" width="60" height="8" class="border-light" stroke-width="1.2" fill="#ffffff" />
       <rect x="185" y="291" width="6" height="2" fill="#ff007f" />
       <!-- Power button (LED) -->
       <circle class="power-led" cx="295" cy="285" r="4" fill="#ff007f" />
 
       <!-- Monitor Casing -->
-      <rect x="140" y="130" width="160" height="120" rx="14" class="border-light" stroke-width="2" fill="none" />
+      <rect x="140" y="130" width="160" height="120" rx="14" class="border-light" stroke-width="2" fill="#ffeef2" />
       <rect x="141" y="131" width="158" height="118" rx="13" stroke="#8a8a8c" stroke-width="1" fill="none" />
 
       <!-- Screen Frame Bezel -->
-      <rect x="152" y="142" width="136" height="96" rx="8" class="border-light" stroke-width="1.2" fill="none" />
+      <rect x="152" y="142" width="136" height="96" rx="8" class="border-light" stroke-width="1.2" fill="#ffccd5" />
 
       <!-- Screen Glass (Neon Fucsia) -->
-      <rect x="162" y="152" width="116" height="76" rx="4" stroke="#ff007f" stroke-width="1.8" fill="none" />
+      <rect x="162" y="152" width="116" height="76" rx="4" stroke="#ff007f" stroke-width="1.8" fill="#151518" />
 
       <!-- Kawaii blushing cheeks on screen -->
       <ellipse cx="178" cy="198" rx="8" ry="4" fill="#ff007f" opacity="0.4" />
