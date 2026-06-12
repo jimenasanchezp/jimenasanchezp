@@ -122,7 +122,7 @@
           <img src="./button-instagram.svg?v=3" height="38" alt="Instagram" />
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://github.com/jimenasanchezp">
+        <a href="https://github.com/jimenasanzp">
           <img src="./button-github.svg?v=3" height="38" alt="GitHub" />
         </a>
       </p>
